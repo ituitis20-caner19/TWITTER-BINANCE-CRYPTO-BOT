@@ -1,0 +1,351 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+nav{
+  background-color:#1B1B1B;
+  padding: 1%;
+}
+
+li{
+  display: inline-block;
+  margin-left: 2%;
+
+  color: aliceblue;
+  padding: 0.5rem;
+  border-radius:5px
+}
+
+ul {
+  list-style-type: none;
+  text-align: center;
+  margin: 0;
+  display: block;
+  overflow: hidden;
+}
+li:hover{
+  background-color:white;
+  color: black;
+}
+div{
+
+  width: 100%;
+  height: 720px;
+}
+.register{
+  background-color:#28eafb;
+}
+/*
+input[type=text], input[type=password], input[type=email], input[type=number] {
+  width: 60%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  border-radius: 4px;
+  background: #f1f1f1;
+  text-align: center;
+}*/
+
+.input-reg-log{
+  width: 60%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: 1.5px solid #66666628;
+  border-radius: 4px;
+  background: #ffffff;
+  text-align: center;
+}
+
+input[type=text]:hover, input[type=password]:hover, input[type=email]:hover, input[type=number]:hover  {
+  background-color: rgb(255, 255, 255);
+  outline: none;
+  border: 1.5px solid #fbd602;
+}
+input[type=text]:focus, input[type=password]:focus, input[type=email]:focus, input[type=number]:focus  {
+  outline: none;
+  border: none;
+  border: 1.5px solid #fbd602;
+}
+
+.submit-log-reg{
+  width: 30%;
+  height: 35px;
+  margin: auto;
+  display: flex;
+  border: none;
+  justify-content: center;
+  background: #FCD535;
+  border-radius: 2px;
+  color:#0f1111
+}
+.submit-log-reg:hover {
+  background-color: #c0cd03;
+  color: #ffffff;
+  outline: none;
+}
+
+.regdiv{
+  position: relative;  
+  margin: auto;
+  width: 400px;
+  max-width: 90%;
+  border: 2px #FCD535;
+  border-style: solid;
+  border-radius: 10px;
+  height: 50%;
+  box-shadow: rgba(0, 0, 0, 0.596) 0px 20px 30px -10px;
+  background-color: #ffffff;
+}
+.logdiv{
+  margin: auto;
+  width: 400px; 
+  max-width: 90%;
+  border: 2px #FCD535;
+  border-style: solid;
+  border-radius: 10px;
+  height: 40%;
+  box-shadow: rgba(0, 0, 0, 0.596) 0px 20px 30px -10px;
+  background-color: #ffffff;
+}
+
+.title{
+  display: flex;
+  justify-content: center; 
+  font: 1.5rem / 110% "Sofia Pro", sans-serif;
+}
+.error{
+  display: flex;
+  justify-content: center; 
+  font: 1rem / 100% "Sofia Pro", sans-serif;
+  background-color: #e5d201;
+  color: #ffffff;
+
+}
+.errordiv{
+  margin: auto;
+  max-width: 60%;
+}
+.divdiv{
+  position: relative;
+  padding-top: 0.2% ; 
+  background-color: #ffffff;
+}
+
+.form{
+  text-align: center;  
+  width: 100%;
+} 
+
+.empty{
+  height: 50px;
+}
+.reg-log-nav{
+  background-color: #fcd435db;
+  padding: 1.2%;
+}
+
+.reg-log-ul{
+  text-align: left;
+}
+.reg-log-li{
+  font-size: 110%;
+  background-color:#1B1B1B;
+  width: 80px;
+  min-width: 50px;
+  text-align: center;
+}
+
+.arr-div{
+  display: flex;
+  position: relative;
+}
+
+.input-dash{
+  width: 50%;
+  padding: 15px;
+  margin: 5px 0 22px 3px;
+  display: inline-block;
+  border: 1.5px solid #6d6d6d;
+  border-radius: 4px;
+  background: #fafafa;
+  text-align: center;
+}
+
+/* CSS */
+.dash-btn {
+  background-color: #fff;
+  border: 1px solid #d5d9d9;
+  border-radius: 5px;
+  box-shadow: rgba(213, 217, 217, .5) 0 2px 5px 0;
+  box-sizing: border-box;
+  color: #0f1111;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Amazon Ember",sans-serif;
+  font-size: 13px;
+  line-height: 29px;
+  padding: 0 10px 0 11px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+  width: 100px;
+  margin-left: 8px;
+}
+
+.dash-btn:hover {
+  background-color: #f7fafa;
+}
+
+.dash-btn:focus {
+  border-color: #008296;
+  box-shadow: rgba(213, 217, 217, .5) 0 2px 5px 0;
+  outline: 0;
+}
+
+.dash-form{
+  display: inline-block;
+  width: 100%;
+}
+/* addsiz olanlar*/
+.input-dash-other{
+  width: 50%;
+  margin-right: 25px;
+  display: inline-block;
+  border: 1.5px solid #6d6d6d;
+  border-radius: 4px;
+  background: #fafafa;
+  text-align: center;
+}
+
+.other-div{
+  margin-left: 2rem;
+  min-width: 50%;
+  max-width: 100%;
+}
+
+.other-form{
+  display: flex;
+  height: 35px;
+  padding: 10px;
+}
+.other-form-key{
+  width: 90%;
+}
+
+.component{
+  display: inline-block;
+  height: 50px;
+  margin-bottom: 10px;
+}
+.btn-component{
+  height: 30px;
+  float: right;
+  margin-right: 8rem;
+
+}
+.p-component{
+  font-family: "Lucida Console", "Courier New", monospace;
+  margin-top: 0px;
+  margin-left: 5px;
+  display: inline-block;
+}
+
+.submit-dash{
+  width: 15%;
+  justify-content: center;
+  display: flex;
+  border: none;
+  background: #FCD535;
+  border-radius: 2px;
+  color:rgb(0, 0, 0)
+}
+
+.submit-dash:hover{
+  transition: 0.75s;
+  width: 20%;
+  font-size: 100%;
+  background: #fff34b;
+  box-shadow: 0 0 0 3px #f7ff88;
+}
+
+body {
+  display: flex;
+}
+
+@media screen and (max-width: 768px) {
+body {
+  flex-direction: column;
+}
+.other-div{
+  margin-left: 0;
+}
+.div-scroll{
+  overflow: scroll
+}
+}
+.div-scroll{
+  width: 750px;
+  height:260px;
+  max-width:100%;
+}
+
+/* CSS */
+.button-87 {
+  width:200px ;
+  margin: 10px;
+  padding: 15px 30px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  border-radius: 10px;
+  display: block;
+  border: 0px;
+  font-weight: 700;
+  box-shadow: 0px 0px 14px -7px #f09819;
+  background-image: linear-gradient(45deg, #0cc4fd 0%, #FCD535  51%, #2de3ff  100%);
+  cursor: pointer;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-87:hover {
+  background-position: right center;
+  /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
+
+.button-87:active {
+  transform: scale(0.95);
+}
+
+.img{
+  width: 600px;
+}
+.img-div{
+max-width: 100%;
+}
+.center-img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
