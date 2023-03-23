@@ -13,7 +13,7 @@ function Home(){
     }}>
 		<nav>
 				<ul >
-					<Link  to="/login">
+					<Link  to="https://loginxnsywnf.auth.eu-north-1.amazoncognito.com/">
 						<li className='login'>Login</li>
 					</Link>
 
