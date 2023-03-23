@@ -13,7 +13,7 @@ function Home(){
     }}>
 		<nav>
 				<ul >
-					<Link  to="https://loginxnsywnf.auth.eu-north-1.amazoncognito.com/">
+					<Link  to="/login">
 						<li className='login'>Login</li>
 					</Link>
 
@@ -27,6 +27,7 @@ function Home(){
 				</ul>
 
 		</nav>
+		<a href='https://loginxnsywnf.auth.eu-north-1.amazoncognito.com' style={{color: "red"}}>LOGIN-LINK</a>
 		</div>
 		</>
 
